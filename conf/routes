@@ -1,0 +1,11 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+GET     /change/optimal               org.srinivas.siteworks.controllers.PostController.handleGetOptimalCalculation(pence: Integer)
+
+GET     /change/supply             org.srinivas.siteworks.controllers.PostController.handleGetSupplyCalculation(pence: Integer)
+
+
+
